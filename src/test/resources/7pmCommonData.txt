@@ -1,0 +1,4 @@
+password=admin
+browser=firefox
+url=http\://localhost\:8888/
+username=admin
