@@ -1,159 +1,160 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="3" failed="2" skipped="0">
+<testng-results ignored="2" total="7" passed="5" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Clicked on contacts link]]>
+    </line>
+    <line>
+      <![CDATA[clicked on create contact lookup img]]>
+    </line>
+    <line>
+      <![CDATA[contact created successfully]]>
+    </line>
+    <line>
+      <![CDATA[header captured]]>
+    </line>
+    <line>
+      <![CDATA[header validated]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on contacts link]]>
+    </line>
+    <line>
+      <![CDATA[clicked on create contact lookup img]]>
+    </line>
+    <line>
+      <![CDATA[contact created successfully]]>
+    </line>
+    <line>
+      <![CDATA[header captured]]>
+    </line>
+    <line>
+      <![CDATA[header validated]]>
+    </line>
   </reporter-output>
-  <suite started-at="2023-10-20T00:45:51 IST" name="Default suite" finished-at="2023-10-20T00:48:19 IST" duration-ms="147745">
+  <suite started-at="2023-10-31T19:50:00 IST" name="Suite" finished-at="2023-10-31T19:51:28 IST" duration-ms="87616">
     <groups>
+      <group name="smokeSuite">
+        <method signature="CreateContact1Test.createContact()[pri:0, instance:vtigerProduct.CreateContact1Test@4d5650ae]" name="createContact" class="vtigerProduct.CreateContact1Test"/>
+        <method signature="CreateContact1Test.createContact()[pri:0, instance:vtigerProduct.CreateContact1Test@15bb5034]" name="createContact" class="vtigerProduct.CreateContact1Test"/>
+      </group> <!-- smokeSuite -->
+      <group name="ReggressionSuite">
+        <method signature="CreaterContactWithOrgUsingBaseClassTest.createContactWithOrgTest()[pri:0, instance:vtigerProduct.CreaterContactWithOrgUsingBaseClassTest@7d0b7e3c]" name="createContactWithOrgTest" class="vtigerProduct.CreaterContactWithOrgUsingBaseClassTest"/>
+      </group> <!-- ReggressionSuite -->
     </groups>
-    <test started-at="2023-10-20T00:45:51 IST" name="Default test" finished-at="2023-10-20T00:48:19 IST" duration-ms="147745">
-      <class name="vtigerOrganization.CreateMultipleOrgWithIndustry">
-        <test-method signature="createMultipleOrg(java.lang.String,java.lang.String)[pri:0, instance:vtigerOrganization.CreateMultipleOrgWithIndustry@272113c4]" started-at="2023-10-20T00:45:52 IST" name="createMultipleOrg" data-provider="getData" finished-at="2023-10-20T00:46:24 IST" duration-ms="31543" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Wipro]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Chemicals]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2023-10-31T19:50:00 IST" name="Test-Runner1" finished-at="2023-10-31T19:50:53 IST" duration-ms="52020">
+      <class name="vtigerProduct.CreateContact1Test">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:vtigerProduct.CreateContact1Test@4d5650ae]" started-at="2023-10-31T19:50:01 IST" name="bcConfig" finished-at="2023-10-31T19:50:12 IST" duration-ms="10994" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createMultipleOrg -->
-        <test-method signature="createMultipleOrg(java.lang.String,java.lang.String)[pri:0, instance:vtigerOrganization.CreateMultipleOrgWithIndustry@272113c4]" started-at="2023-10-20T00:46:24 IST" name="createMultipleOrg" data-provider="getData" finished-at="2023-10-20T00:46:57 IST" duration-ms="33842" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Onfosys]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Healthcare]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:vtigerProduct.CreateContact1Test@4d5650ae]" started-at="2023-10-31T19:50:12 IST" name="bmConfig" finished-at="2023-10-31T19:50:17 IST" duration-ms="5431" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createMultipleOrg -->
-        <test-method signature="createMultipleOrg(java.lang.String,java.lang.String)[pri:0, instance:vtigerOrganization.CreateMultipleOrgWithIndustry@272113c4]" started-at="2023-10-20T00:46:57 IST" name="createMultipleOrg" data-provider="getData" finished-at="2023-10-20T00:47:20 IST" duration-ms="22999" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[KFC]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Energy]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="createContact()[pri:0, instance:vtigerProduct.CreateContact1Test@4d5650ae]" started-at="2023-10-31T19:50:17 IST" name="createContact" finished-at="2023-10-31T19:50:38 IST" duration-ms="20607" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on contacts link]]>
+            </line>
+            <line>
+              <![CDATA[clicked on create contact lookup img]]>
+            </line>
+            <line>
+              <![CDATA[contact created successfully]]>
+            </line>
+            <line>
+              <![CDATA[header captured]]>
+            </line>
+            <line>
+              <![CDATA[header validated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createContact -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:vtigerProduct.CreateContact1Test@4d5650ae]" started-at="2023-10-31T19:50:38 IST" name="amConfig" finished-at="2023-10-31T19:50:42 IST" duration-ms="4072" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createMultipleOrg -->
-        <test-method signature="createMultipleOrg(java.lang.String,java.lang.String)[pri:0, instance:vtigerOrganization.CreateMultipleOrgWithIndustry@272113c4]" started-at="2023-10-20T00:47:20 IST" name="createMultipleOrg" data-provider="getData" finished-at="2023-10-20T00:47:47 IST" duration-ms="26555" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Dominos]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Eddddducation]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:vtigerProduct.CreateContact1Test@4d5650ae]" started-at="2023-10-31T19:50:42 IST" name="bmConfig" finished-at="2023-10-31T19:50:45 IST" duration-ms="2880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="demo()[pri:0, instance:vtigerProduct.CreateContact1Test@4d5650ae]" started-at="2023-10-31T19:50:45 IST" name="demo" finished-at="2023-10-31T19:50:45 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:vtigerProduct.CreateContact1Test@4d5650ae]" started-at="2023-10-31T19:50:45 IST" name="amConfig" finished-at="2023-10-31T19:50:51 IST" duration-ms="6878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:vtigerProduct.CreateContact1Test@4d5650ae]" started-at="2023-10-31T19:50:51 IST" name="acConfig" finished-at="2023-10-31T19:50:53 IST" duration-ms="1113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+      </class> <!-- vtigerProduct.CreateContact1Test -->
+    </test> <!-- Test-Runner1 -->
+    <test started-at="2023-10-31T19:50:00 IST" name="Test-Runner2" finished-at="2023-10-31T19:51:28 IST" duration-ms="87616">
+      <class name="vtigerProduct.CreateContact1Test">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:vtigerProduct.CreateContact1Test@15bb5034]" started-at="2023-10-31T19:50:54 IST" name="bcConfig" finished-at="2023-10-31T19:50:58 IST" duration-ms="3850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:vtigerProduct.CreateContact1Test@15bb5034]" started-at="2023-10-31T19:50:58 IST" name="bmConfig" finished-at="2023-10-31T19:51:01 IST" duration-ms="2572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="createContact()[pri:0, instance:vtigerProduct.CreateContact1Test@15bb5034]" started-at="2023-10-31T19:51:01 IST" name="createContact" finished-at="2023-10-31T19:51:10 IST" duration-ms="9174" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on contacts link]]>
+            </line>
+            <line>
+              <![CDATA[clicked on create contact lookup img]]>
+            </line>
+            <line>
+              <![CDATA[contact created successfully]]>
+            </line>
+            <line>
+              <![CDATA[header captured]]>
+            </line>
+            <line>
+              <![CDATA[header validated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createContact -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:vtigerProduct.CreateContact1Test@15bb5034]" started-at="2023-10-31T19:51:10 IST" name="amConfig" finished-at="2023-10-31T19:51:13 IST" duration-ms="3095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:vtigerProduct.CreateContact1Test@15bb5034]" started-at="2023-10-31T19:51:13 IST" name="bmConfig" finished-at="2023-10-31T19:51:15 IST" duration-ms="1818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="demo()[pri:0, instance:vtigerProduct.CreateContact1Test@15bb5034]" started-at="2023-10-31T19:51:15 IST" name="demo" finished-at="2023-10-31T19:51:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:vtigerProduct.CreateContact1Test@15bb5034]" started-at="2023-10-31T19:51:15 IST" name="amConfig" finished-at="2023-10-31T19:51:27 IST" duration-ms="12236" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Cannot locate option with value: Eddddducation
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.10.0', revision: 'c14d967899'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
-Driver info: driver.version: unknown]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Eddddducation
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.10.0', revision: 'c14d967899'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
-Driver info: driver.version: unknown
-at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:289)
-at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:194)
-at genericUtilities.WebDriverUtility.handleDropDown(WebDriverUtility.java:58)
-at objectRepository.CreateNewOrganizationPage.createNewOrganization(CreateNewOrganizationPage.java:54)
-at vtigerOrganization.CreateMultipleOrgWithIndustry.createMultipleOrg(CreateMultipleOrgWithIndustry.java:74)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createMultipleOrg -->
-        <test-method signature="createMultipleOrg(java.lang.String,java.lang.String)[pri:0, instance:vtigerOrganization.CreateMultipleOrgWithIndustry@272113c4]" started-at="2023-10-20T00:47:47 IST" name="createMultipleOrg" data-provider="getData" finished-at="2023-10-20T00:48:19 IST" duration-ms="31695" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Qspiders]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Banking]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to locate element: //span[@class='dvHeaderText']
+              <![CDATA[Unable to locate element: Sign Out
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.10.0', revision: 'c14d967899'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [1d69455b-2da3-4e0b-8d01-9cd80442fe1d, findElement {using=xpath, value=//span[@class='dvHeaderText']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:debuggerAddress: 127.0.0.1:39556, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 47700, moz:profile: C:\Users\ADMIN\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:39556/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 1d69455b-2da3-4e0b-8d01-9cd80442fe1d]]>
+Command: [8649bddd-12ee-44fa-bd8e-e2c488b411fa, findElement {using=link text, value=Sign Out}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:45608, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9800, moz:profile: C:\Users\ADMIN\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:45608/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8649bddd-12ee-44fa-bd8e-e2c488b411fa]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //span[@class='dvHeaderText']
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: Sign Out
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.10.0', revision: 'c14d967899'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [1d69455b-2da3-4e0b-8d01-9cd80442fe1d, findElement {using=xpath, value=//span[@class='dvHeaderText']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:debuggerAddress: 127.0.0.1:39556, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 47700, moz:profile: C:\Users\ADMIN\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:39556/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 1d69455b-2da3-4e0b-8d01-9cd80442fe1d
+Command: [8649bddd-12ee-44fa-bd8e-e2c488b411fa, findElement {using=link text, value=Sign Out}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:45608, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9800, moz:profile: C:\Users\ADMIN\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:45608/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8649bddd-12ee-44fa-bd8e-e2c488b411fa
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -172,15 +173,20 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy16.getText(Unknown Source)
-at objectRepository.OrganizationInformationPage.getHeaderText(OrganizationInformationPage.java:23)
-at vtigerOrganization.CreateMultipleOrgWithIndustry.createMultipleOrg(CreateMultipleOrgWithIndustry.java:79)
+at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+at objectRepository.HomePage.logoutofApp(HomePage.java:69)
+at genericUtilities.BaseClass.amConfig(BaseClass.java:75)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
@@ -191,25 +197,54 @@ at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:794)
 at org.testng.TestRunner.run(TestRunner.java:596)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createMultipleOrg -->
-      </class> <!-- vtigerOrganization.CreateMultipleOrgWithIndustry -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:vtigerProduct.CreateContact1Test@15bb5034]" started-at="2023-10-31T19:51:27 IST" name="acConfig" finished-at="2023-10-31T19:51:28 IST" duration-ms="946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+      </class> <!-- vtigerProduct.CreateContact1Test -->
+      <class name="vtigerProduct.CreaterContactWithOrgUsingBaseClassTest">
+        <test-method is-config="true" signature="bsConfig()[pri:0, instance:vtigerProduct.CreaterContactWithOrgUsingBaseClassTest@7d0b7e3c]" started-at="2023-10-31T19:50:00 IST" name="bsConfig" finished-at="2023-10-31T19:50:00 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bsConfig -->
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:vtigerProduct.CreaterContactWithOrgUsingBaseClassTest@7d0b7e3c]" started-at="2023-10-31T19:50:01 IST" name="bcConfig" finished-at="2023-10-31T19:50:11 IST" duration-ms="10954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:vtigerProduct.CreaterContactWithOrgUsingBaseClassTest@7d0b7e3c]" started-at="2023-10-31T19:50:11 IST" name="bmConfig" finished-at="2023-10-31T19:50:17 IST" duration-ms="5953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="createContactWithOrgTest()[pri:0, instance:vtigerProduct.CreaterContactWithOrgUsingBaseClassTest@7d0b7e3c]" started-at="2023-10-31T19:50:17 IST" name="createContactWithOrgTest" finished-at="2023-10-31T19:50:50 IST" duration-ms="32659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactWithOrgTest -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:vtigerProduct.CreaterContactWithOrgUsingBaseClassTest@7d0b7e3c]" started-at="2023-10-31T19:50:50 IST" name="amConfig" finished-at="2023-10-31T19:50:53 IST" duration-ms="3268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:vtigerProduct.CreaterContactWithOrgUsingBaseClassTest@7d0b7e3c]" started-at="2023-10-31T19:50:53 IST" name="acConfig" finished-at="2023-10-31T19:50:54 IST" duration-ms="1043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+        <test-method is-config="true" signature="asConfig()[pri:0, instance:vtigerProduct.CreaterContactWithOrgUsingBaseClassTest@7d0b7e3c]" started-at="2023-10-31T19:51:28 IST" name="asConfig" finished-at="2023-10-31T19:51:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asConfig -->
+      </class> <!-- vtigerProduct.CreaterContactWithOrgUsingBaseClassTest -->
+    </test> <!-- Test-Runner2 -->
+  </suite> <!-- Suite -->
 </testng-results>

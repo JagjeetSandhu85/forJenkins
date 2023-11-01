@@ -12,6 +12,8 @@ public class ReadDataFromCMDline {
 		
 		System.out.println(USERNAME);
 		System.out.println(PASSWORD);
+		
+		System.out.println("Check for poll scm");
 	}
 
 
